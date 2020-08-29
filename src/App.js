@@ -1,12 +1,16 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
+import NavigationBarComponent from './components/NavigationBarComponent'
+import {BrowserRouter} from 'react-router-dom';
 
 class App extends Component{
 	render() {
 		return(
-			<div>
-				Ardra.com
-			</div>
+			<BrowserRouter>
+				<div>
+					<NavigationBarComponent/>
+				</div>
+			</BrowserRouter>
 		);
 	}
 }
