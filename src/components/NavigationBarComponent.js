@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Button, Input, Form, FormGroup } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Button, Input, Form, FormGroup, Container, Modal, ModalHeader, ModalBody, Label } from 'reactstrap';
 import {NavLink} from 'react-router-dom';
 
 class NavigationBarComponent extends Component{
@@ -8,24 +8,56 @@ class NavigationBarComponent extends Component{
     constructor(props){
 		super(props);
 		this.state={
-			isNavOpen:false
+            isNavOpen:false,
+            isLoginModalOpen: false
 		};
-		this.toggleNav = this.toggleNav.bind(this);
+        this.toggleNav = this.toggleNav.bind(this);
+        this.toggleLoginModal = this.toggleLoginModal.bind(this);
 	}
 
     toggleNav(){
 		this.setState({
 			isNavOpen: !this.state.isNavOpen
 		});
+    }
+    
+    toggleLoginModal(){
+		this.setState({
+			isLoginModalOpen: !this.state.isLoginModalOpen
+		});
 	}
 
     render(){
         return(
             <React.Fragment>
+                <Modal className="modal-dialog-centered" isOpen={this.state.isLoginModalOpen} toggle = {this.toggleLoginModal}>
+                	<ModalHeader toggle = {this.toggleLoginModal}> Login </ModalHeader>
+                	<ModalBody>
+                		<Form>
+                			<FormGroup>
+                                <Label htmlFor="username">Username</Label>
+                                <Input type="text" id="username" name="username"/>
+                            </FormGroup>
+                            <FormGroup>
+                                <Label htmlFor="password">Password</Label>
+                                <Input type="password" id="password" name="password"/>
+                            </FormGroup>
+                            <FormGroup check>
+                                <Label check>
+                                    <Input type="checkbox" name="remember"/>
+                                    Remember me
+                                </Label>
+                            </FormGroup>
+                            <Button type="submit" value="submit" color="primary">
+                                Login
+                            </Button>
+                		</Form>
+                	</ModalBody>
+                </Modal>
                 <Navbar className="bg-dark" dark expand="md">
-                    <div className="container">
+                    <Container className="container">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="" href="/">
+                        <NavbarBrand href="/ardrashop.com">
                             <div className='brandname'>
                                 ardra
                             </div>
@@ -38,11 +70,6 @@ class NavigationBarComponent extends Component{
                         </Form>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="ml-auto" navbar>
-                            	<NavItem>
-                                    <NavLink className="nav-link" to='/login'>
-                                        Login
-                                    </NavLink>
-                            	</NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to='/yourordes'>
                                         Your Orders
@@ -53,9 +80,14 @@ class NavigationBarComponent extends Component{
                                         Cart
                                     </NavLink>
                                 </NavItem>
+                                <Form className="form-inline my-2 my-lg-0">
+                                    <Button className="btn btn-sm btn-primary my-2 my-sm-0" onClick={this.toggleLoginModal}>
+                                        Login
+                                    </Button>
+                            	</Form>
                             </Nav>
                         </Collapse>
-                    </div>
+                    </Container>
                 </Navbar>
             </React.Fragment>
         )
