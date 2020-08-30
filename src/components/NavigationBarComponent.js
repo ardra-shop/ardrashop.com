@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Button } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Button, Input, Form, FormGroup } from 'reactstrap';
 import {NavLink} from 'react-router-dom';
 
 class NavigationBarComponent extends Component{
@@ -25,24 +25,17 @@ class NavigationBarComponent extends Component{
                 <Navbar className="bg-dark" dark expand="md">
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
-                        &nbsp;
-                        <NavbarBrand className="m-auto" href="/">
+                        <NavbarBrand className="" href="/">
                             <div className='brandname'>
                                 ardra
                             </div>
                         </NavbarBrand>
-                        &nbsp;
-                        <Nav>
-                            <form className='form-inline'>
-                                <div className="form-group">
-                                    <input className="form-control form-control-sm" placeholder="Search"/>
-                                    <button type="submit" className="ml-1 btn btn-sm btn-primary d-none d-md-block">
-                                        Search
-                                    </button>
-                                </div>
-                            </form>
-                        </Nav>
-                        &nbsp;
+                        <Form className="form-inline my-2 my-lg-0">
+                            <Input className="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <Button className="btn btn-sm btn-primary my-2 my-sm-0 d-none d-md-block" type="submit">
+                                Search
+                            </Button>
+                        </Form>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="ml-auto" navbar>
                             	<NavItem>
