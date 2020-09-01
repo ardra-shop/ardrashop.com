@@ -62,7 +62,7 @@ class NavigationBarComponent extends Component{
                                     </Col>
                                     <Col className='col-6'>
                                         <Button className="mt-3 btn-block" type="button" color="primary">
-                                            New? Sing In
+                                            New? Sign In
                                         </Button>
                                     </Col>
                                 </Row>
@@ -81,9 +81,11 @@ class NavigationBarComponent extends Component{
                         </NavbarBrand>
                         <Form className="form-inline my-2 my-lg-0">
                             <Input className="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <Button className="btn btn-sm btn-primary my-2 my-sm-0 d-none d-md-block" type="submit">
-                                Search
-                            </Button>
+                            <Link to='/ardrashop.com/shop'>
+                                <Button className="btn btn-sm btn-primary my-2 my-sm-0 d-none d-md-block" type="submit">
+                                    Search
+                                </Button>
+                            </Link>
                         </Form>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="ml-auto" navbar>
