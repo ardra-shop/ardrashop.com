@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Button, Input, Form, FormGroup, Container, Modal, ModalHeader, ModalBody, Label } from 'reactstrap';
-import {NavLink} from 'react-router-dom';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Button, Input, Form, FormGroup, Container, Row, Col, Modal, ModalHeader, ModalBody, Label } from 'reactstrap';
+import {NavLink, Link} from 'react-router-dom';
 
 class NavigationBarComponent extends Component{
 
@@ -41,6 +41,11 @@ class NavigationBarComponent extends Component{
                             <FormGroup>
                                 <Label htmlFor="password">Password</Label>
                                 <Input type="password" id="password" name="password"/>
+                                <small>
+                                    <Link to='/forgotpassword'>
+                                        Forgot password?
+                                    </Link>
+                                </small>
                             </FormGroup>
                             <FormGroup check>
                                 <Label check>
@@ -48,9 +53,21 @@ class NavigationBarComponent extends Component{
                                     Remember me
                                 </Label>
                             </FormGroup>
-                            <Button type="submit" value="submit" color="primary">
-                                Login
-                            </Button>
+                            <FormGroup>
+                                <Row>
+                                    <Col className='col-6'>
+                                        <Button className="mt-3 btn-block" type="submit" value="submit" color="success">
+                                            Login
+                                        </Button>
+                                    </Col>
+                                    <Col className='col-6'>
+                                        <Button className="mt-3 btn-block" type="button" color="primary">
+                                            New? Sing In
+                                        </Button>
+                                    </Col>
+                                </Row>
+                                
+                            </FormGroup>
                 		</Form>
                 	</ModalBody>
                 </Modal>
