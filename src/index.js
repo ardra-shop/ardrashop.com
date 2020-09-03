@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './fonts/static/JosefinSans-Regular.ttf';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
