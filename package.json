@@ -2,7 +2,7 @@
   "name": "ardrashop.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ardra-shop.github.io/ardra.com/",
+  "homepage": "https://ardra-shop.github.io/ardrashop.com/",
   "dependencies": {
     "@popperjs/core": "^2.4.4",
     "@testing-library/jest-dom": "^4.2.4",
