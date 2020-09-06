@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ardra.com/static/css/main.fe176e0f.chunk.css",
+    "main.js": "/ardra.com/static/js/main.1c49e62e.chunk.js",
+    "main.js.map": "/ardra.com/static/js/main.1c49e62e.chunk.js.map",
+    "runtime-main.js": "/ardra.com/static/js/runtime-main.e7a138eb.js",
+    "runtime-main.js.map": "/ardra.com/static/js/runtime-main.e7a138eb.js.map",
+    "static/css/2.11829350.chunk.css": "/ardra.com/static/css/2.11829350.chunk.css",
+    "static/js/2.70898a1c.chunk.js": "/ardra.com/static/js/2.70898a1c.chunk.js",
+    "static/js/2.70898a1c.chunk.js.map": "/ardra.com/static/js/2.70898a1c.chunk.js.map",
+    "index.html": "/ardra.com/index.html",
+    "precache-manifest.e915f083b2cb5f099dd3c5ab469133bd.js": "/ardra.com/precache-manifest.e915f083b2cb5f099dd3c5ab469133bd.js",
+    "service-worker.js": "/ardra.com/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/ardra.com/static/css/2.11829350.chunk.css.map",
+    "static/css/main.fe176e0f.chunk.css.map": "/ardra.com/static/css/main.fe176e0f.chunk.css.map",
+    "static/js/2.70898a1c.chunk.js.LICENSE.txt": "/ardra.com/static/js/2.70898a1c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7a138eb.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.70898a1c.chunk.js",
+    "static/css/main.fe176e0f.chunk.css",
+    "static/js/main.1c49e62e.chunk.js"
+  ]
+}
