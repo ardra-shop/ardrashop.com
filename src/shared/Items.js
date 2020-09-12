@@ -455,19 +455,19 @@ export const Items =
         description : "The Boeing 777 is a wide-body airliner developed and manufactured by Boeing Commercial Airplanes, commonly referred to as the Triple Seven. The 777 was designed to bridge the gap between Boeing's 767 and 747, and to replace older DC-10s or L-1011s.",
         photo : [
             {
-                src : "https://ardrashopimages.000webhostapp.com/Boeing777/1.jpg"
+                src : "https://ardrashopimages.000webhostapp.com/Boeing777F/1.jpg"
             },
             {
-                src : "https://ardrashopimages.000webhostapp.com/Boeing777/2.jpg"
+                src : "https://ardrashopimages.000webhostapp.com/Boeing777F/2.jpg"
             },
             {
-                src : "https://ardrashopimages.000webhostapp.com/Boeing777/3.jpg"
+                src : "https://ardrashopimages.000webhostapp.com/Boeing777F/3.jpg"
             },
             {
-                src : "https://ardrashopimages.000webhostapp.com/Boeing777/4.jpg"
+                src : "https://ardrashopimages.000webhostapp.com/Boeing777F/4.jpg"
             },
             {
-                src : "https://ardrashopimages.000webhostapp.com/Boeing777/5.jpg"
+                src : "https://ardrashopimages.000webhostapp.com/Boeing777F/5.jpg"
             },
         ],
     },
