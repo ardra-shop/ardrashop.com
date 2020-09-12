@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Items } from '../shared/Items';
+import PaginationComponent from './PaginationComponent';
 import ItemComponent from './ItemComponent'
 
 class ShopComponent extends Component{
@@ -7,6 +8,7 @@ class ShopComponent extends Component{
         return(
             <React.Fragment>
                 <ItemComponent items={Items}/>
+                <PaginationComponent />
             </React.Fragment>
         );        
     }
