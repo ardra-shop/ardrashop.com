@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24ff47997f5143b34303581deed3c5cd",
+    "revision": "9afa5b9d5a0bb458953242c86aff0c85",
     "url": "/ardrashop.com/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ardrashop.com/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "f598afcef8708f742d55",
+    "revision": "653e8ea672d586685216",
     "url": "/ardrashop.com/static/css/main.fe176e0f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ardrashop.com/static/js/2.9394f68c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f598afcef8708f742d55",
-    "url": "/ardrashop.com/static/js/main.a4b2b225.chunk.js"
+    "revision": "653e8ea672d586685216",
+    "url": "/ardrashop.com/static/js/main.32cb9e6d.chunk.js"
   },
   {
     "revision": "7a4e3da826918d033d07",
