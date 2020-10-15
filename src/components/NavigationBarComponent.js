@@ -83,7 +83,7 @@ class NavigationBarComponent extends Component{
                         </NavbarBrand>
                         <Form className="form-inline my-2 my-lg-0">
                             <Input className="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <Link to='/ardrashop.com/shop'>
+                            <Link to='/ardrashop.com/searchresult'>
                                 <Button className="btn btn-sm btn-primary my-2 my-sm-0 d-none d-md-block" type="submit">
                                     Search
                                 </Button>

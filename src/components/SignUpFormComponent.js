@@ -32,10 +32,33 @@ class SignUpFormComponent extends Component{
                                         +91
                                         </InputGroupText>
                                     </InputGroupAddon>
-                                    <Input placeholder="Enter your mobile no." />
+                                    <Input type="tel" placeholder="Enter your mobile no." />
                                 </InputGroup>
                             </Col>
                         </FormGroup>
+                        <FormGroup row>
+                            <Label md="2" sm="3">
+                                Email
+                            </Label>
+                            <Col md="6" sm="5">
+                                <Input type="email" placeholder="Enter your Email ID here" />
+                            </Col>
+                        </FormGroup>
+                        <FormGroup row>
+                            <Label md="2" sm="3">
+                            Date of birth
+                            </Label>
+                            <Col md="6" sm="5">
+                                <Input type="date" placeholder="Select your DOB" />
+                            </Col>
+                        </FormGroup>
+                        <Row>
+                            <Col md="6" sm="5" className="offset-sm-3 offset-md-2">
+                                <Button color="success" type="submit" block>
+                                    Register
+                                </Button>
+                            </Col>
+                        </Row>
                     </Form>
                 </Container>
             </React.Fragment>

@@ -3,7 +3,7 @@ import { Items } from '../shared/Items';
 import PaginationComponent from './PaginationComponent';
 import ItemComponent from './ItemComponent'
 
-class ShopComponent extends Component{
+class SearchResultComponent extends Component{
     render(){
         return(
             <React.Fragment>
@@ -14,4 +14,4 @@ class ShopComponent extends Component{
     }
 }
 
-export default ShopComponent;
+export default SearchResultComponent;
