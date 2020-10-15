@@ -7,59 +7,54 @@ class SignUpFormComponent extends Component{
             <React.Fragment>
                 <Container>
                     <Row className="justify-content-center">
-                        <h1 className="brandfont mt-3 mb-0">
-                            Sign Up to ardra
-                        </h1>
+                        <Col xs="10" md="8" lg="6" xl="4">
+                            <h1 className="brandfont mt-3 mb-0 text-center">
+                                Sign Up to ardra
+                            </h1>
+                            <hr/>
+                            <Form>
+                                <FormGroup row>
+                                    <Label row>
+                                        Full Name
+                                    </Label>
+                                        <Input placeholder="Enter your full name here" />
+                                </FormGroup>
+                                <FormGroup row>
+                                    <Label>
+                                        Mobile No.
+                                    </Label>
+                                    <InputGroup>
+                                        <InputGroupAddon addonType="prepend">
+                                            <InputGroupText>
+                                            +91
+                                            </InputGroupText>
+                                        </InputGroupAddon>
+                                        <Input type="tel" placeholder="Enter your mobile no." />
+                                    </InputGroup>
+                                </FormGroup>
+                                <FormGroup row>
+                                    <Label>
+                                        Email
+                                    </Label>
+                                    <Input type="email" placeholder="Enter your Email ID here" />
+                                </FormGroup>
+                                <FormGroup row>
+                                    <Label>
+                                        Password
+                                    </Label>
+                                    <Input type="password" placeholder="Enter your Password" className="mb-3"/>
+                                    <Input type="password" placeholder="Retype your Password" />
+                                </FormGroup>
+                                <Row>
+                                    <Col>
+                                        <Button color="success" type="submit" block>
+                                            Register
+                                        </Button>
+                                    </Col>
+                                </Row>
+                            </Form>
+                        </Col>
                     </Row>
-                    <hr/>
-                    <Form>
-                        <FormGroup row>
-                            <Label md="2" sm="3">
-                                Full Name
-                            </Label>
-                            <Col md="6" sm="5">
-                                <Input placeholder="Enter your full name here" />
-                            </Col>
-                        </FormGroup>
-                        <FormGroup row>
-                            <Label md="2" sm="3">
-                                Mobile No.
-                            </Label>
-                            <Col md="6" sm="5">
-                                <InputGroup>
-                                    <InputGroupAddon addonType="prepend">
-                                        <InputGroupText>
-                                        +91
-                                        </InputGroupText>
-                                    </InputGroupAddon>
-                                    <Input type="tel" placeholder="Enter your mobile no." />
-                                </InputGroup>
-                            </Col>
-                        </FormGroup>
-                        <FormGroup row>
-                            <Label md="2" sm="3">
-                                Email
-                            </Label>
-                            <Col md="6" sm="5">
-                                <Input type="email" placeholder="Enter your Email ID here" />
-                            </Col>
-                        </FormGroup>
-                        <FormGroup row>
-                            <Label md="2" sm="3">
-                            Date of birth
-                            </Label>
-                            <Col md="6" sm="5">
-                                <Input type="date" placeholder="Select your DOB" />
-                            </Col>
-                        </FormGroup>
-                        <Row>
-                            <Col md="6" sm="5" className="offset-sm-3 offset-md-2">
-                                <Button color="success" type="submit" block>
-                                    Register
-                                </Button>
-                            </Col>
-                        </Row>
-                    </Form>
                 </Container>
             </React.Fragment>
         );
