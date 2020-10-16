@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import StarRatings from 'react-star-ratings';
 import { Container, Row, Col, Card, CardBody, CardTitle, UncontrolledCarousel, Button, ButtonGroup } from 'reactstrap';
 
-class ItemComponent extends Component{
+class SearchItemComponent extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -115,4 +115,4 @@ class ItemComponent extends Component{
     }
 }
 
-export default ItemComponent;
+export default SearchItemComponent;

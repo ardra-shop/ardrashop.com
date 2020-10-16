@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Items } from '../shared/Items';
 import PaginationComponent from './PaginationComponent';
-import ItemComponent from './ItemComponent'
+import SearchItemComponent from './SearchItemComponent'
 
 class SearchResultComponent extends Component{
     render(){
         return(
             <React.Fragment>
-                <ItemComponent items={Items}/>
+                <SearchItemComponent items={Items}/>
                 <PaginationComponent />
             </React.Fragment>
         );        

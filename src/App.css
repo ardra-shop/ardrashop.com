@@ -6,3 +6,7 @@
 .brandfont{
     font-family: 'Josefin Sans', sans-serif;
 }
+
+.embed-responsive-1by1::before {
+    padding-top: 25%;
+  }
