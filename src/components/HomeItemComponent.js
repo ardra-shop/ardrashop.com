@@ -11,7 +11,7 @@ class SearchItemComponent extends Component{
 
     renderCard(item){
         return(
-            <Col key={item.id} className="mt-4" lg="3" md="4" xs="6">
+            <Col key={item.id} className="mb-4" lg="3" md="4" xs="6">
                 <Card>
                     <CardBody>
                         <CardImg className="card-img-top" src={item.photo[0].src} />
