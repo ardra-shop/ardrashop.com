@@ -12,9 +12,7 @@
 }
 
 .backgroundimg{
-    background-image: url("http://localhost:3000/ardrashop.com/assets/images/Background.jpg");
     background-image: url("https://ardra-shop.github.io/ardrashop.com/assets/images/Background.jpg");
-    background-image: url("http://192.168.0.105:3000/ardrashop.com/assets/images/Background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
