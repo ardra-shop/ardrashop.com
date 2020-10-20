@@ -10,3 +10,9 @@
 .embed-responsive-1by1::before {
     padding-top: 25%;
 }
+
+.backgroundimg{
+    background-image: url("http://localhost:3000/ardrashop.com/assets/images/Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
