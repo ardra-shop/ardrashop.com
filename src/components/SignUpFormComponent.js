@@ -50,6 +50,7 @@ class SignUpFormComponent extends Component{
                                         <Button color="success" type="submit" block>
                                             Register
                                         </Button>
+                                        <br/>
                                     </Col>
                                 </Row>
                             </Form>

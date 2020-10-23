@@ -5,10 +5,12 @@ import NavigationBarComponent from './components/NavigationBarComponent';
 import SearchResultComponent from './components/SearchResultComponent'
 import SignUpFormComponent from './components/SignUpFormComponent';
 import HomeComponent from './components/HomeComponent';
+import FooterComponent from './components/FooterComponent';
 
 class App extends Component{
 	render() {
 		return(
+<<<<<<< Updated upstream
 			<div className="backgroundimg">
 				<BrowserRouter>
 					<NavigationBarComponent/>
@@ -20,6 +22,18 @@ class App extends Component{
 					</Switch>
 				</BrowserRouter>
 			</div>
+=======
+			<BrowserRouter>
+				<NavigationBarComponent/>
+				<Switch>
+					<Route exact path="/ardrashop.com" component={HomeComponent} />
+					<Route exact path="/ardrashop.com/searchresult" component={SearchResultComponent} />
+					<Route exact path="/ardrashop.com/signup" component={SignUpFormComponent} />
+					<Redirect to="/ardrashop.com"/>
+            	</Switch>
+				<FooterComponent/>
+			</BrowserRouter>
+>>>>>>> Stashed changes
 		);
 	}
 }

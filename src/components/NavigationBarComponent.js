@@ -92,17 +92,17 @@ class NavigationBarComponent extends Component{
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <NavLink className="nav-link" to='/yourordes'>
+                                    <NavLink className="nav-link text-white" to='/yourordes'>
                                         Your Orders
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to='/cart'>
+                                    <NavLink className="nav-link text-white" to='/cart'>
                                         Cart
                                     </NavLink>
                                 </NavItem>
                                 <Form className="form-inline my-2 my-lg-0">
-                                    <Button className="btn btn-sm btn-primary my-2 my-sm-0" onClick={this.toggleLoginModal}>
+                                    <Button className="btn btn-sm btn-primary my-2 my-sm-0 text-white" onClick={this.toggleLoginModal}>
                                         Login
                                     </Button>
                             	</Form>

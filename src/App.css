@@ -9,6 +9,7 @@
 
 .embed-responsive-1by1::before {
     padding-top: 25%;
+<<<<<<< Updated upstream
 }
 
 .backgroundimg{
@@ -17,3 +18,13 @@
     background-attachment: fixed;
     background-size: cover;
 }
+=======
+  }
+
+.main-footer{
+    background-color: black;
+}
+
+
+
+>>>>>>> Stashed changes
