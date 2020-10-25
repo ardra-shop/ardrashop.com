@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/ardrashop.com/static/css/main.16fa9797.chunk.css",
-    "main.js": "/ardrashop.com/static/js/main.1ba878b6.chunk.js",
-    "main.js.map": "/ardrashop.com/static/js/main.1ba878b6.chunk.js.map",
+    "main.js": "/ardrashop.com/static/js/main.c6626bc3.chunk.js",
+    "main.js.map": "/ardrashop.com/static/js/main.c6626bc3.chunk.js.map",
     "runtime-main.js": "/ardrashop.com/static/js/runtime-main.bdcbd5e0.js",
     "runtime-main.js.map": "/ardrashop.com/static/js/runtime-main.bdcbd5e0.js.map",
     "static/css/2.11829350.chunk.css": "/ardrashop.com/static/css/2.11829350.chunk.css",
-    "static/js/2.77773746.chunk.js": "/ardrashop.com/static/js/2.77773746.chunk.js",
-    "static/js/2.77773746.chunk.js.map": "/ardrashop.com/static/js/2.77773746.chunk.js.map",
+    "static/js/2.5c0b83f7.chunk.js": "/ardrashop.com/static/js/2.5c0b83f7.chunk.js",
+    "static/js/2.5c0b83f7.chunk.js.map": "/ardrashop.com/static/js/2.5c0b83f7.chunk.js.map",
     "index.html": "/ardrashop.com/index.html",
-    "precache-manifest.7dbbfc30e3cb927221c3b0205da2f24b.js": "/ardrashop.com/precache-manifest.7dbbfc30e3cb927221c3b0205da2f24b.js",
+    "precache-manifest.2d127b2df456f67d80bf3bf8137a46d3.js": "/ardrashop.com/precache-manifest.2d127b2df456f67d80bf3bf8137a46d3.js",
     "service-worker.js": "/ardrashop.com/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/ardrashop.com/static/css/2.11829350.chunk.css.map",
     "static/css/main.16fa9797.chunk.css.map": "/ardrashop.com/static/css/main.16fa9797.chunk.css.map",
-    "static/js/2.77773746.chunk.js.LICENSE.txt": "/ardrashop.com/static/js/2.77773746.chunk.js.LICENSE.txt"
+    "static/js/2.5c0b83f7.chunk.js.LICENSE.txt": "/ardrashop.com/static/js/2.5c0b83f7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bdcbd5e0.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.77773746.chunk.js",
+    "static/js/2.5c0b83f7.chunk.js",
     "static/css/main.16fa9797.chunk.css",
-    "static/js/main.1ba878b6.chunk.js"
+    "static/js/main.c6626bc3.chunk.js"
   ]
 }
