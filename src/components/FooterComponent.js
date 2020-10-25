@@ -1,26 +1,29 @@
 import React from "react";
+import {Row, Container, Col} from 'reactstrap';
+import {Link} from 'react-router-dom';
+import { FaInstagram } from 'react-icons/fa';
 
 const FooterComponent = () => {
   return(
       <div class="p-3 mb-2 bg-dark text-white">
-          <div className="container">
-              <div className="row">
+          <Container>
+              <Row>
                   {/*1st column*/}
-                  <div className="col">
+                  <Col>
                     <h3 class="text-warning">About us</h3> 
                     <p class="text-white"> We provide handicraft stuff........ etc etc </p>
-                  </div>
+                  </Col>
                   {/*2nd column */}
-                  <div className="col">
+                  <Col>
                       <h4 class="text-warning">Information</h4> 
                       <ul className="list-unstyled text-white ">
-                          <a className="text-white" href="#"> <li> Homepage </li> </a>
-                          <a className="text-white" href="#"> <li> Register </li> </a>
-                          <a className="text-white" href="#"> <li> Login </li> </a>
+                          <Link to = '/ardrashop.com' className="text-white"> <li> Homepage </li> </Link>
+                          <Link to = '/ardrashop.com/signup' className="text-white"> <li> Register </li> </Link>
+                          <Link to = '#' className="text-white"> <li> Login </li> </Link>
                       </ul>
-                    </div>
+                    </Col>
                     {/*3rd Column */}
-                 <div className="col">
+                 <Col>
                      <h4 class="text-warning">  Contact us</h4>
                      <ul className="list-unstyled text-white">
                          <li> 
@@ -38,23 +41,21 @@ const FooterComponent = () => {
                             ardrashop@gmail.com 
                         </li> 
                         <li>
-                            <a href="https://instagram.com/ardrashopdotcom?igshid=yq9v34n55f5d" class="instagram text-white"> <i class="bx bxl-instagram"> </i> instagram </a> 
+                            <a href="https://instagram.com/ardrashopdotcom?igshid=yq9v34n55f5d" class="instagram text-white"><FaInstagram/> Instagram </a> 
                         </li>
-                       
-                         
-
-                     </ul>
-                </div>
-              </div>
-              <br/>
+                    </ul>
+                </Col>
+              </Row>
               <div class="row text-center">
                   <div class="col-lg-12">
-                    <h6 class="text-white"> Subscribe for getting notified regularly &nbsp; <button type="button" class="btn btn-primary" > Subscribe </button> </h6>
+                    <h6 class="text-white"> Subscribe to get notified regularly </h6>
+                    <input id="input-field" placeholder="Enter your email"/> &nbsp; <button type="submit" class="btn btn-primary" > Subscribe </button> 
+          
                     
                   </div>
                    
               </div>
-        </div>
+        </Container>
 
       </div>
   )
