@@ -1,7 +1,6 @@
 import React from "react";
 import {Row, Container, Col} from 'reactstrap';
 import {Link} from 'react-router-dom';
-import { FaInstagram } from 'react-icons/fa';
 
 const FooterComponent = () => {
   return(
@@ -41,7 +40,7 @@ const FooterComponent = () => {
                             ardrashop@gmail.com 
                         </li> 
                         <li>
-                            <a href="https://instagram.com/ardrashopdotcom?igshid=yq9v34n55f5d" class="instagram text-white"><FaInstagram/> Instagram </a> 
+                            <a href="https://instagram.com/ardrashopdotcom?igshid=yq9v34n55f5d" class="instagram text-white"> Instagram </a> 
                         </li>
                     </ul>
                 </Col>
