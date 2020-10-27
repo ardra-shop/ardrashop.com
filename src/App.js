@@ -6,6 +6,7 @@ import SearchResultComponent from './components/SearchResultComponent'
 import SignUpFormComponent from './components/SignUpFormComponent';
 import HomeComponent from './components/HomeComponent';
 import FooterComponent from './components/FooterComponent';
+import ProductDetailPage from './components/ProductDetailPage';
 
 class App extends Component{
 	render() {
@@ -17,6 +18,7 @@ class App extends Component{
 						<Route exact path="/ardrashop.com" component={HomeComponent} />
 						<Route exact path="/ardrashop.com/searchresult" component={SearchResultComponent} />
 						<Route exact path="/ardrashop.com/signup" component={SignUpFormComponent} />
+						<Route path="/ardrashop.com/productdetailpage/:id" component={ProductDetailPage} />
 						<Redirect to="/ardrashop.com"/>
 					</Switch>
 					<FooterComponent/>
