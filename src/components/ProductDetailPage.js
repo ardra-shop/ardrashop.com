@@ -1,23 +1,32 @@
 import React, { Component } from 'react';
-import { useParams } from 'react-router-dom';
+import { Container } from 'reactstrap';
+import { Items } from '../shared/Items';
 
 class ProductDetailPage extends Component{
 
-    readParam(){
-        let { id } = useParams();
-        return(
-            <p>
-                { id }
-            </p>
-        )
+    constructor(props){
+        super(props);
+        this.state = {
+            productId : this.props.match.params.productid,
+            items : Items
+        };
     }
 
     render(){
+
+        for (var i =0;i < 20; i++){
+            for (const value in Items[i]){
+                console.log(value[0]);
+            }
+        }
+
         return(
             <React.Fragment>
-                This is Product detail page.
-                <br/>
-                <useParams/>
+                <Container>
+                    This is Product detail page.
+                    <br/>
+                    { this.state.productId }
+                </Container>
             </React.Fragment>
         );
     }
