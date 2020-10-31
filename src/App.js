@@ -3,11 +3,11 @@ import './App.css';
 import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
 import NavigationBarComponent from './components/NavigationBarComponent';
 import SearchResultComponent from './components/SearchResultComponent'
-import SignUpFormComponent from './components/SignUpFormComponent';
+import RegisterFormComponent from './components/RegisterFormComponent';
 import HomeComponent from './components/HomeComponent';
 import FooterComponent from './components/FooterComponent';
 import ProductDetailPage from './components/ProductDetailPage';
-import UnsubscribePageComponent from './components/UnsubscribePageComponent';
+import UnsubscribedPageComponent from './components/UnsubscribedPageComponent';
 
 class App extends Component{
 	render() {
@@ -18,9 +18,9 @@ class App extends Component{
 					<Switch>
 						<Route exact path="/ardrashop.com" component={HomeComponent} />
 						<Route exact path="/ardrashop.com/searchresult" component={SearchResultComponent} />
-						<Route exact path="/ardrashop.com/signup" component={SignUpFormComponent} />
+						<Route exact path="/ardrashop.com/register" component={RegisterFormComponent} />
 						<Route path="/ardrashop.com/productdetailpage/:productid" component={ProductDetailPage} />
-						<Route exact path="/ardrashop.com/unsubscribe" component={UnsubscribePageComponent}/>
+						<Route exact path="/ardrashop.com/unsubscribed" component={UnsubscribedPageComponent}/>
 						<Redirect to="/ardrashop.com"/>
 					</Switch>
 					<FooterComponent/>
