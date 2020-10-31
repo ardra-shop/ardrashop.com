@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ardrashop.com/static/css/main.16fa9797.chunk.css",
-    "main.js": "/ardrashop.com/static/js/main.c6626bc3.chunk.js",
-    "main.js.map": "/ardrashop.com/static/js/main.c6626bc3.chunk.js.map",
+    "main.css": "/ardrashop.com/static/css/main.61701c4a.chunk.css",
+    "main.js": "/ardrashop.com/static/js/main.d033afc6.chunk.js",
+    "main.js.map": "/ardrashop.com/static/js/main.d033afc6.chunk.js.map",
     "runtime-main.js": "/ardrashop.com/static/js/runtime-main.bdcbd5e0.js",
     "runtime-main.js.map": "/ardrashop.com/static/js/runtime-main.bdcbd5e0.js.map",
-    "static/css/2.11829350.chunk.css": "/ardrashop.com/static/css/2.11829350.chunk.css",
-    "static/js/2.5c0b83f7.chunk.js": "/ardrashop.com/static/js/2.5c0b83f7.chunk.js",
-    "static/js/2.5c0b83f7.chunk.js.map": "/ardrashop.com/static/js/2.5c0b83f7.chunk.js.map",
+    "static/css/2.2a86faee.chunk.css": "/ardrashop.com/static/css/2.2a86faee.chunk.css",
+    "static/js/2.c27e2e60.chunk.js": "/ardrashop.com/static/js/2.c27e2e60.chunk.js",
+    "static/js/2.c27e2e60.chunk.js.map": "/ardrashop.com/static/js/2.c27e2e60.chunk.js.map",
     "index.html": "/ardrashop.com/index.html",
-    "precache-manifest.2d127b2df456f67d80bf3bf8137a46d3.js": "/ardrashop.com/precache-manifest.2d127b2df456f67d80bf3bf8137a46d3.js",
+    "precache-manifest.42b1b9e1dfa9140e31b7cde5d4c0c365.js": "/ardrashop.com/precache-manifest.42b1b9e1dfa9140e31b7cde5d4c0c365.js",
     "service-worker.js": "/ardrashop.com/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/ardrashop.com/static/css/2.11829350.chunk.css.map",
-    "static/css/main.16fa9797.chunk.css.map": "/ardrashop.com/static/css/main.16fa9797.chunk.css.map",
-    "static/js/2.5c0b83f7.chunk.js.LICENSE.txt": "/ardrashop.com/static/js/2.5c0b83f7.chunk.js.LICENSE.txt"
+    "static/css/2.2a86faee.chunk.css.map": "/ardrashop.com/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.61701c4a.chunk.css.map": "/ardrashop.com/static/css/main.61701c4a.chunk.css.map",
+    "static/js/2.c27e2e60.chunk.js.LICENSE.txt": "/ardrashop.com/static/js/2.c27e2e60.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bdcbd5e0.js",
-    "static/css/2.11829350.chunk.css",
-    "static/js/2.5c0b83f7.chunk.js",
-    "static/css/main.16fa9797.chunk.css",
-    "static/js/main.c6626bc3.chunk.js"
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.c27e2e60.chunk.js",
+    "static/css/main.61701c4a.chunk.css",
+    "static/js/main.d033afc6.chunk.js"
   ]
 }
