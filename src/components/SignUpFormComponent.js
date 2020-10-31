@@ -63,3 +63,4 @@ class SignUpFormComponent extends Component{
 }
 
 export default SignUpFormComponent;
+
