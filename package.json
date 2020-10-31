@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://ardra-shop.github.io/ardrashop.com/",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@popperjs/core": "^2.4.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

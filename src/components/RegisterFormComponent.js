@@ -62,4 +62,6 @@ class RegisterFormComponent extends Component{
     }
 }
 
+export default SignUpFormComponent;
+
 export default RegisterFormComponent;

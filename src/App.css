@@ -17,6 +17,10 @@
     background-attachment: fixed;
     background-size: cover;
 }
+.image{
+    height:80px;
+    width:80px;
+}
 
 .fullpage{
     height: 92vh;

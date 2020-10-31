@@ -6,6 +6,8 @@ import SearchResultComponent from './components/SearchResultComponent'
 import RegisterFormComponent from './components/RegisterFormComponent';
 import HomeComponent from './components/HomeComponent';
 import FooterComponent from './components/FooterComponent';
+import NoSearchResultComponent from './components/NoSearchResultComponent';
+import ThankYouPageComponent from './components/ThankYouPageComponent';
 import ProductDetailPage from './components/ProductDetailPage';
 import UnsubscribedComponent from './components/UnsubscribedComponent';
 
@@ -18,6 +20,9 @@ class App extends Component{
 					<Switch>
 						<Route exact path="/ardrashop.com" component={HomeComponent} />
 						<Route exact path="/ardrashop.com/searchresult" component={SearchResultComponent} />
+						<Route exact path="/ardrashop.com/signup" component={SignUpFormComponent} />
+						<Route exact path="/ardrashop.com/nosearchresult" component={NoSearchResultComponent} />
+						<Route exact path="/ardrashop.com/thankyoupage" component={ThankYouPageComponent} />
 						<Route exact path="/ardrashop.com/register" component={RegisterFormComponent} />
 						<Route path="/ardrashop.com/productdetailpage/:productid" component={ProductDetailPage} />
 						<Route exact path="/ardrashop.com/unsubscribed" component={UnsubscribedComponent}/>
