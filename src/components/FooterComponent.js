@@ -52,7 +52,7 @@ class FooterComponent extends Component{
                             <Row>
                                 <Col className="text-center">
                                     <h6 className="text-white"> Subscribe to get notified regularly </h6>
-                                    <input id="input-field" placeholder="Enter your email"/> &nbsp; <Link to = "/ardrashop.com/thankyoupage"> <Button type="submit" className="btn btn-primary"> Subscribe </Button> </Link>
+                                    <input id="input-field" placeholder="Enter your email"/> &nbsp; <Button type="submit" className="btn btn-primary"> Subscribe </Button> 
                                 </Col>
                             </Row>
                 </Container>
