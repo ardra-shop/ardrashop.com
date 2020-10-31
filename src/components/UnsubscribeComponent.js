@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Form, Input, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-class UnsubscribedComponent extends Component{
+class UnsubscribeComponent extends Component{
     render(){
         return(
             <React.Fragment>
@@ -10,26 +10,21 @@ class UnsubscribedComponent extends Component{
                     <Row className="align-items-center fullpage">
                         <Col xl="12">
                             <Row className="justify-content-center text-center">
-                                <h2>
-                                    You have been unsubcribed.
-                                </h2>
+                                <h1>
+                                    Unsubscribe?
+                                </h1>
                             </Row>
                             <Row className="justify-content-center mb-5 text-center">
                                 <small>
                                     You will be removed from the subscription in less than 24 hours.
                                 </small>
                             </Row>
-                            <Row className="justify-content-center mt-5 text-center">
-                                <h3>
-                                    Unsubscribed accidentally? <Link to="ardrashop.com/subscribe" className="text-dark">Subscribe</Link> again.
-                                </h3>
-                            </Row>
                             <Form row className="form-inline justify-content-center">
                                 <Input className="form-control my-2" type="email" placeholder="Enter your email" aria-label="email"/>
                                 &nbsp;
-                                <Link to='/ardrashop.com/subscribed'>
+                                <Link to='/ardrashop.com/unsubscribed'>
                                     <Button className="btn" color="primary" type="submit">
-                                        Subscribe
+                                        Unubscribe
                                     </Button>
                                 </Link>
                             </Form>
@@ -48,4 +43,4 @@ class UnsubscribedComponent extends Component{
     }
 }
 
-export default UnsubscribedComponent;
+export default UnsubscribeComponent
