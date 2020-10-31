@@ -21,7 +21,6 @@ class App extends Component{
 					<Switch>
 						<Route exact path="/ardrashop.com" component={HomeComponent} />
 						<Route exact path="/ardrashop.com/searchresult" component={SearchResultComponent} />
-						<Route exact path="/ardrashop.com/signup" component={SignUpFormComponent} />
 						<Route exact path="/ardrashop.com/nosearchresult" component={NoSearchResultComponent} />
 						<Route exact path="/ardrashop.com/thankyoupage" component={ThankYouPageComponent} />
 						<Route exact path="/ardrashop.com/register" component={RegisterFormComponent} />

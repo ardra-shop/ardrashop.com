@@ -3,9 +3,6 @@ import { Row, Container } from 'reactstrap';
 import {Link} from 'react-router-dom';
 
 class NoSearchResultComponent extends Component{
-    constructor(props){
-        super(props);
-    }
     render(){
         return(
             <React.Fragment>

@@ -3,9 +3,6 @@ import {Row, Container, Col, Button} from 'reactstrap';
 import {Link} from 'react-router-dom';
 
 class FooterComponent extends Component{
-    constructor(props){
-        super(props);
-    }
     render(){
         return(
             <div className ="p-3 mb-0 bg-dark text-white">
@@ -15,7 +12,7 @@ class FooterComponent extends Component{
                         <Col>
                             <h3 className="text-warning">About us</h3> 
                             <p className="text-white"> We provide handicraft stuff ........ etc etc </p>
-                            <img  class="embed-responsive-item image text-left" src= {process.env.PUBLIC_URL + "/assets/icons/logo.jpeg"}> 
+                            <img alt="logo" class="embed-responsive-item image text-left" src= {process.env.PUBLIC_URL + "/assets/icons/logo.jpeg"}> 
                             </img> 
                         </Col>
                         {/*2nd column */}
