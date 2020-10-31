@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ardrashop.com/precache-manifest.42b1b9e1dfa9140e31b7cde5d4c0c365.js"
+  "/ardrashop.com/precache-manifest.28f64674ee4f3840136a18a85d91063e.js"
 );
 
 self.addEventListener('message', (event) => {
