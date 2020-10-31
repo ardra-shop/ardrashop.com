@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Form, Input, Button } from 'reactstrap';
 import { Link} from 'react-router-dom';
 
-class UnsubscribedPageComponent extends Component{
+class UnsubscribedComponent extends Component{
 
     render(){
         return(
@@ -42,4 +42,4 @@ class UnsubscribedPageComponent extends Component{
     }
 }
 
-export default UnsubscribedPageComponent;
+export default UnsubscribedComponent;
