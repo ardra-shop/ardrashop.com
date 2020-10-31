@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button, Form, FormGroup, Label, Input, InputGroup, InputGroupAddon, InputGroupText } from 'reactstrap';
 
-class SignUpFormComponent extends Component{
+class RegisterFormComponent extends Component{
     render(){
         return(
             <React.Fragment>
@@ -64,3 +64,4 @@ class SignUpFormComponent extends Component{
 
 export default SignUpFormComponent;
 
+export default RegisterFormComponent;

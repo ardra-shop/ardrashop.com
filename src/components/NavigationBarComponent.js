@@ -61,7 +61,7 @@ class NavigationBarComponent extends Component{
                                         </Button>
                                     </Col>
                                     <Col className='col-6'>
-                                        <Link to="/ardrashop.com/signup">
+                                        <Link to="/ardrashop.com/register">
                                             <Button onClick = {this.toggleLoginModal} className="mt-3 btn-block" type="button" color="primary">
                                                 New? Sign Up
                                             </Button>
