@@ -8,15 +8,19 @@ class FooterComponent extends Component{
             <div className ="p-3 mb-0 bg-dark text-white">
                 <Container>
                     <Row>
+
                         {/*1st column*/}
-                        <Col>
+                        <Col className="md-col-3">
                             <h3 className="text-warning">About us</h3> 
                             <p className="text-white"> We provide handicraft stuff ........ etc etc </p>
+                            <br/>
                             <img alt="logo" class="embed-responsive-item image text-left" src= {process.env.PUBLIC_URL + "/assets/icons/logo.jpeg"}> 
-                            </img> 
+                            </img>
+                            {/* <h2 className="brandfont"> ardra </h2> */}
                         </Col>
+
                         {/*2nd column */}
-                        <Col>
+                        <Col className="md-col-3">
                             <h4 className="text-warning">Other Links</h4> 
                             <ul className="list-unstyled text-white ">
                                 <Link to = '/ardrashop.com' className="text-white"> <li> Homepage </li> </Link>
@@ -25,8 +29,29 @@ class FooterComponent extends Component{
                                 <Link to = "/ardrashop.com/nosearchresult" className="text-white"> <li> No search </li></Link>
                             </ul>
                         </Col>
-                        {/*3rd Column */}
-                        <Col>
+
+                        {/*3rd Column*/}
+                        <Col className="md-col-3">
+                            <h4 className="text-warning">  Connect </h4>
+                            <ul className="list-unstyled text-white ">
+                                <li> 
+                                    <a href="https://instagram.com/ardrashopdotcom?igshid=yq9v34n55f5d" className ="instagram text-white">  Instagram </a> 
+                                </li>
+                                <li>
+                                    <a href="#" className="text-white"> Youtube </a>
+                                </li> 
+                                <li>
+                                    <a href="#" className="text-white">Twitter </a> 
+                                </li>
+                                <li>
+                                    <a href="#" className="text-white"> Facebook </a>
+                                </li>
+
+                            </ul>
+                        </Col>
+
+                        {/*4th Column */}
+                        <Col className="md-col-3">
                             <h4 className="text-warning">  Contact us</h4>
                             <ul className="list-unstyled text-white">
                             <li> 
@@ -44,7 +69,10 @@ class FooterComponent extends Component{
                                 <a href="mailto:ardrasupport@gmail.com" className="text-white"> Mail </a> 
                             </li> 
                             <li>
-                                <a href="https://instagram.com/ardrashopdotcom?igshid=yq9v34n55f5d" className ="instagram text-white">  Instagram </a> 
+                                <a href="#" className ="text-white">  Customer service </a> 
+                            </li>
+                            <li>
+                                <a href="#" className="text-white"> Feedback </a>
                             </li>
                             </ul>
                         </Col>
