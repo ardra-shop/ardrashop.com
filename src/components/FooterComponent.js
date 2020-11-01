@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Row, Container, Col, Button} from 'reactstrap';
+import {Row, Container, Col, Button, Input, Form} from 'reactstrap';
 import {Link} from 'react-router-dom';
 
 class FooterComponent extends Component{
@@ -48,13 +48,19 @@ class FooterComponent extends Component{
                             </li>
                             </ul>
                         </Col>
-                            </Row>
-                            <Row>
-                                <Col className="text-center">
-                                    <h6 className="text-white"> Subscribe to get notified regularly </h6>
-                                    <input id="input-field" placeholder="Enter your email"/> &nbsp; <Button type="submit" className="btn btn-primary"> Subscribe </Button> 
-                                </Col>
-                            </Row>
+                    </Row>
+                    <Row className="justify-content-center">
+                        <h6 className="text-white"> Subscribe to get notified regularly </h6>
+                    </Row>
+                        <Form row className="form-inline justify-content-center">
+                            <Input className="form-control" type="email" placeholder="Enter your email" aria-label="email"/>
+                            &nbsp;
+                            <Link to='/ardrashop.com/subscribed'>
+                                <Button className="btn" color="primary" type="submit">
+                                    Subscribe
+                                </Button>
+                            </Link>
+                        </Form>
                 </Container>
             </div>
         )
