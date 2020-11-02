@@ -26,7 +26,7 @@ class App extends Component{
 						<Route exact path="/ardrashop.com/register" component={RegisterFormComponent} />
 						<Route exact path="/ardrashop.com/unsubscribed" component={UnsubscribedComponent}/>
 						<Route exact path="/ardrashop.com/unsubscribe" component={UnsubscribeComponent}/>
-						<Route path="/ardrashop.com/productdetailpage/:productid" component={ProductDetailPage} />
+						<Route path="/ardrashop.com/productdetail/:productid" component={ProductDetailPage} />
 						
 						<Redirect to="/ardrashop.com"/>
 					</Switch>
