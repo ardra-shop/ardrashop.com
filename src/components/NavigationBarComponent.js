@@ -61,7 +61,7 @@ class NavigationBarComponent extends Component{
                                         </Button>
                                     </Col>
                                     <Col className='col-6'>
-                                        <Link to="/ardrashop.com/register">
+                                        <Link to="/register">
                                             <Button onClick = {this.toggleLoginModal} className="mt-3 btn-block" type="button" color="primary">
                                                 New? Sign Up
                                             </Button>
@@ -83,7 +83,7 @@ class NavigationBarComponent extends Component{
                         </NavbarBrand>
                         <Form className="form-inline my-2 my-lg-0">
                             <Input className="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <Link to='/ardrashop.com/searchresult'>
+                            <Link to='/searchresult'>
                                 <Button className="btn btn-sm btn-primary my-2 my-sm-0 d-none d-md-block" type="submit">
                                     Search
                                 </Button>

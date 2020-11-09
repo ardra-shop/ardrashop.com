@@ -22,7 +22,7 @@ class ThankYouPageComponent extends Component{
                         <br/>
                         <Row className="justify-content-center text-center">
                             <h4> Don't stop! Visit &nbsp;
-                                <Link to="/ardrashop.com"> 
+                                <Link to="/"> 
                                     <Button  title="home" color="primary" className="btn"> Homepage </Button> 
                                 </Link>
                             &nbsp; for more such products </h4>

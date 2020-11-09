@@ -83,7 +83,7 @@ class FooterComponent extends Component{
                         <Form row className="form-inline justify-content-center">
                             <Input className="form-control" type="email" placeholder="Enter your email" aria-label="email"/>
                             &nbsp;
-                            <Link to='/ardrashop.com/subscribed'>
+                            <Link to='/subscribed'>
                                 <Button className="btn" color="primary" type="submit">
                                     Subscribe
                                 </Button>

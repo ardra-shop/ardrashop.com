@@ -22,14 +22,14 @@ class UnsubscribeComponent extends Component{
                             <Form row className="form-inline justify-content-center">
                                 <Input className="form-control my-2" type="email" placeholder="Enter your email" aria-label="email"/>
                                 &nbsp;
-                                <Link to='/ardrashop.com/unsubscribed'>
+                                <Link to='/unsubscribed'>
                                     <Button className="btn" color="primary" type="submit">
                                         Unubscribe
                                     </Button>
                                 </Link>
                             </Form>
                             <Form row className="form-inline justify-content-center mt-5">
-                                <Link to='/ardrashop.com'>
+                                <Link to='/'>
                                     <Button className="btn" color="primary" type="submit">
                                         Go back to Home
                                     </Button>

@@ -20,7 +20,7 @@ class NoSearchResultComponent extends Component{
                                 <h2> Need help? </h2>
                             </Row>
                             <Row className="justify-content-center text-center">
-                                <h6> <Link to = "/ardrashop.com"> <Button title="home"> Go back to home </Button> </Link> </h6>
+                                <h6> <Link to = "/"> <Button title="home"> Go back to home </Button> </Link> </h6>
                             </Row>
                         </Col>
                     </Row>

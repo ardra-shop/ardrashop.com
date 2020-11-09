@@ -14,7 +14,7 @@ class SearchItemComponent extends Component{
         return(
             <Col key={item.id} className="mb-4" lg="3" md="4" xs="6">
                 <Card>
-                    <Link to={"ardrashop.com/productdetail/" + item.id} className="text-dark">
+                    <Link to={"/productdetail/" + item.id} className="text-dark">
                         <CardBody>
                             <CardImg className="card-img-top" src={item.photo[0].src} />
                             <CardTitle className="mt-3 mb-0">

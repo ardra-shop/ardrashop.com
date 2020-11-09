@@ -21,20 +21,20 @@ class UnsubscribedComponent extends Component{
                             </Row>
                             <Row className="justify-content-center mt-5 text-center">
                                 <h3>
-                                    Unsubscribed accidentally? <Link to="ardrashop.com/subscribe" className="text-dark">Subscribe</Link> again.
+                                    Unsubscribed accidentally? <Link to="/subscribe" className="text-dark">Subscribe</Link> again.
                                 </h3>
                             </Row>
                             <Form row className="form-inline justify-content-center">
                                 <Input className="form-control my-2" type="email" placeholder="Enter your email" aria-label="email"/>
                                 &nbsp;
-                                <Link to='/ardrashop.com/subscribed'>
+                                <Link to='/subscribed'>
                                     <Button className="btn" color="primary" type="submit">
                                         Subscribe
                                     </Button>
                                 </Link>
                             </Form>
                             <Form row className="form-inline justify-content-center mt-5">
-                                <Link to='/ardrashop.com'>
+                                <Link to='/'>
                                     <Button className="btn" color="primary" type="submit">
                                         Go back to Home
                                     </Button>

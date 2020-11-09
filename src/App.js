@@ -19,16 +19,15 @@ class App extends Component{
 				<BrowserRouter>
 					<NavigationBarComponent/>
 					<Switch>
-						<Route exact path="/ardrashop.com" component={HomeComponent} />
-						<Route exact path="/ardrashop.com/searchresult" component={SearchResultComponent} />
-						<Route exact path="/ardrashop.com/nosearchresult" component={NoSearchResultComponent} />
-						<Route exact path="/ardrashop.com/thankyoupage" component={ThankYouPageComponent} />
-						<Route exact path="/ardrashop.com/register" component={RegisterFormComponent} />
-						<Route exact path="/ardrashop.com/unsubscribed" component={UnsubscribedComponent}/>
-						<Route exact path="/ardrashop.com/unsubscribe" component={UnsubscribeComponent}/>
-						<Route path="/ardrashop.com/productdetail/:productid" component={ProductDetailPage} />
-						
-						<Redirect to="/ardrashop.com"/>
+						<Route exact path="/" component={HomeComponent} />
+						<Route exact path="/searchresult" component={SearchResultComponent} />
+						<Route exact path="/nosearchresult" component={NoSearchResultComponent} />
+						<Route exact path="/thankyoupage" component={ThankYouPageComponent} />
+						<Route exact path="/register" component={RegisterFormComponent} />
+						<Route exact path="/unsubscribed" component={UnsubscribedComponent}/>
+						<Route exact path="/unsubscribe" component={UnsubscribeComponent}/>
+						<Route path="/productdetail/:productid" component={ProductDetailPage} />
+						<Redirect to="/"/>
 					</Switch>
 					<FooterComponent/>
 				</BrowserRouter>
